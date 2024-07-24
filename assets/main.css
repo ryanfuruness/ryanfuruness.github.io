@@ -34,7 +34,7 @@ h1, h2 {
 h1 + p {
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 1.1em;
+    font-size: 1.15em;
 }
 
 ul {
@@ -44,7 +44,7 @@ ul {
 
 li {
     margin-bottom: 10px;
-    font-size: 1.2em; /* Slightly larger than the base font size */
+    font-size: 1.1em; /* Slightly larger than the base font size */
 }
 
 a {
