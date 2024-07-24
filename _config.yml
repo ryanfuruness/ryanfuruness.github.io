@@ -1,7 +1,7 @@
 # _config.yml
-title: My Personal Site
+title: Ryan Furuness
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a simple Jekyll site hosted on GitHub Pages.
+  Personal website of Ryan Furuness, software engineer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ryanfuruness.com" # the base hostname & protocol for your site
 
@@ -14,3 +14,8 @@ plugins:
 # Markdown processing
 markdown: kramdown
 highlighter: rouge
+
+# Header pages
+header_pages:
+  - about.markdown
+  - how-i-work.html
