@@ -1,7 +1,7 @@
 # _config.yml
 title: Ryan Furuness
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Ryan Furuness, software engineer.
+  Ryan Furuness takes enterprise AI agents from SOW to production.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ryanfuruness.com" # the base hostname & protocol for your site
 
@@ -17,5 +17,4 @@ highlighter: rouge
 
 # Header pages
 header_pages:
-  - about.markdown
   - how-i-work.html

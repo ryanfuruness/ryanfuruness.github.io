@@ -1,7 +1,73 @@
 ---
-layout: default
-title: Home
+layout: null
 ---
-
-<h1>Welcome to My Personal Site</h1>
-<p>This is a simple site hosted on GitHub Pages.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ryan Furuness</title>
+  <meta name="description" content="Ryan Furuness takes enterprise AI agents from SOW to production.">
+  <style>
+    :root {
+      --bg: #fbfaf8;
+      --fg: #1c1c1a;
+      --muted: #6b6a66;
+      --rule: #e4e1db;
+      --link: #1f5f99;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141413;
+        --fg: #ecebe7;
+        --muted: #a3a19b;
+        --rule: #2c2b29;
+        --link: #8fb8e6;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--fg);
+      font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      padding: 48px 20px;
+    }
+    main { width: 100%; max-width: 640px; }
+    h1 { font-size: 30px; font-weight: 650; letter-spacing: -0.01em; margin: 0 0 10px; }
+    p.lede { margin: 0 0 28px; color: var(--muted); }
+    nav.primary { display: flex; gap: 22px; flex-wrap: wrap; margin-bottom: 36px; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover, a:focus-visible { text-decoration: underline; }
+    nav.primary a { font-weight: 600; }
+    h2 {
+      font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--muted); margin: 0 0 10px; padding-top: 18px; border-top: 1px solid var(--rule);
+    }
+    ul { list-style: none; margin: 0; padding: 0; }
+    li { margin: 0 0 8px; }
+    li span { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Ryan Furuness</h1>
+    <p class="lede">I take enterprise AI agents from SOW to production, then turn what worked into reusable playbooks.</p>
+    <nav class="primary" aria-label="Profiles">
+      <a href="https://www.linkedin.com/in/ryanfuru">LinkedIn</a>
+      <a href="https://github.com/ryanfuruness">GitHub</a>
+    </nav>
+    <h2>Selected builds</h2>
+    <ul>
+      <li><a href="https://github.com/ryanfuruness/commonplace">Commonplace</a> <span>· a shared library of methods that agents search and improve</span></li>
+      <li><a href="https://github.com/ryanfuruness/great-claude-skills">Great Claude Skills</a> <span>· Agent Skills for Claude, published as a plugin marketplace</span></li>
+      <li><a href="https://github.com/ryanfuruness/codenames">Codenames</a> <span>· a benchmark of Claude models playing Codenames</span></li>
+      <li><a href="https://ryanfuruness.github.io/lumora-care-agent/">Lumora Care</a> <span>· a bilingual voice agent you can talk to</span></li>
+    </ul>
+  </main>
+</body>
+</html>
